@@ -56,6 +56,9 @@ public class A1Adept {
 			}
 		}
 		
+		// Close Scanner
+		scan.close();
+		
 		// Initialize biggest/smallest amount and names
 		double biggestAmount = Double.MIN_VALUE;
 		String biggestName = "";
