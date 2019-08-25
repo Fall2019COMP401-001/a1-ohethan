@@ -34,8 +34,6 @@ public class A1Novice {
 				totalPrice += price * quantity;
 			}
 			
-			scan.close();
-			
 			// format total price to two decimal places
 			String formattedTotal = String.format("%.2f", totalPrice);
 			
@@ -44,5 +42,8 @@ public class A1Novice {
 					+ lastName + ": "
 					+ formattedTotal);
 		}
+		
+		// Close Scanner
+		scan.close();
 	}
 }
